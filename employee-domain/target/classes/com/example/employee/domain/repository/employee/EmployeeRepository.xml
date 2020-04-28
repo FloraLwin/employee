@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper
+	namespace="com.example.employee.domain.repository.employee.EmployeeRepository">
+	<!-- <resultMap id="accountResultMap" type="Account"> <id property="userName" 
+		column="username" /> <result property="password" column="password" /> <result 
+		property="empID" column="emp_id" /> </resultMap> <select id="findOne" parameterType="String" 
+		resultMap="accountResultMap"> SELECT username, password, emp_id FROM account 
+		WHERE username = #{username} </select> -->
+
+	<resultMap id="employeeResultMap" type="Employee">
+		<id property="employeeId" column="employee_id" />
+		<result property="employeeName" column="employee_name" />
+		<result property="birthdate" column="birthdate" />
+		<result property="gender" column="gender" />
+		<result property="maritalStatus" column="marital_status" />
+		<result property="levelName" column="level_name" />
+		<result property="departmentName" column="department_name" />
+		<result property="joinDate" column="join_date" />
+		<result property="positionName" column="position_name" />
+		<result property="email" column="email" />
+		<result property="phone" column="phone" />
+	</resultMap>
+
+	<insert id="create" parameterType="Employee">
+    <![CDATA[
+        INSERT INTO employee
+        ( 
+            name, 
+            gender, 
+            marital_status, 
+            birthDate,
+            email, 
+            phone, 
+            createDate,
+            department_ID, 
+            japan_ID,
+            position_ID
+        ) 
+        VALUES
+        ( 
+            #{name},
+            #{gender},
+            #{maritalStatus},   
+            TO_DATE(#{birthDate}, 'YYYY/MM/DD'),
+            #{email},
+            #{phNo},
+            TO_DATE(#{joinDate}, 'YYYY/MM/DD'),
+            #{departmentId}::INT, 
+            #{japanId}::INT, 
+            #{position}::INT     
+        )
+    ]]>
+	</insert>
+
+	<select id="countBySearchList" resultType="long">
+
+		SELECT
+		count(*)
+		FROM
+		employee
+		<include refid="wherePhrase"></include>
+	</select>
+
+	<sql id="wherePhrase">
+		<where>
+			<!-- <if test="criteria.empName != ''"> emp_name LIKE #{criteria.empName} 
+				|| '%' ESCAPE '~' </if> -->
+			<if test="criteria.searchCondition != ''">
+				AND
+				name = #{criteria.searchCondition}
+			</if>
+			<!-- <if test="criteria.deleteFlg != ''"> AND delete_flg = #{criteria.deleteFlg} 
+				</if> -->
+		</where>
+	</sql>
+
+	<select id="findPage" resultType="Employee">
+		SELECT
+		*
+		FROM
+		employee
+		<include refid="wherePhrase"></include>
+		ORDER BY
+		id
+		LIMIT
+		#{pageable.pageSize}
+		OFFSET
+		#{pageable.offset}
+
+	</select>
+</mapper>

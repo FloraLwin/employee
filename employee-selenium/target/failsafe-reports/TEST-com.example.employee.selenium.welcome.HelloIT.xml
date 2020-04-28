@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.employee.selenium.welcome.HelloIT" time="51.995" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Employee\employee"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Employee\employee"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\USER\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="MS932"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jre1.8.0_181\bin;C:\Users\USER\Downloads\Compressed;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\PostgreSQL\8.4\bin;C:\Users\USER\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\bin;C:\Users\USER\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\USER"/>
+    <property name="user.timezone" value="Asia/Rangoon"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="MS932"/>
+    <property name="user.name" value="USER"/>
+    <property name="java.class.path" value="C:\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install -U"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp65001"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp65001"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testHelloWorld" classname="com.example.employee.selenium.welcome.HelloIT" time="0.007">
+    <error message="Error creating bean with name &apos;com.example.employee.selenium.welcome.HelloIT&apos;: Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: org.openqa.selenium.WebDriver com.example.employee.selenium.welcome.HelloIT.webDriver; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;webDriver&apos; defined in class path resource [META-INF/spring/seleniumContext.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.firefox.FirefoxDriver]: Constructor threw exception; nested exception is org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: &#10;anslators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;sv-SE&quot;]},{&quot;name&quot;:&quot;犲ｧ犲ｴ犲≒ｺｴ犲樅ｺｵ狃�犲扉ｺ� (lo)&quot;,&quot;description&quot;:&quot;犲ｧ犲ｴ犲≒ｺｴ犲樅ｺｵ狃�犲扉ｺ�, 犲ｪ犲ｲ犲･犲ｲ犲吭ｺｸ犲≒ｺｻ犲｡狃�犲ｪ犲･犲ｵ&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;lo&quot;]},{&quot;name&quot;:&quot;Wikipedija (sl)&quot;,&quot;description&quot;:&quot;Wikipedija, prosta enciklopedija&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;sl&quot;]},{&quot;name&quot;:&quot;ﾐ漬ｸﾐｺﾐｸﾐｿﾐｵﾐｴﾐｸﾑ� (ru)&quot;,&quot;description&quot;:&quot;ﾐ漬ｸﾐｺﾐｸﾐｿﾐｵﾐｴﾐｸﾑ�, ﾑ�ﾐｲﾐｾﾐｱﾐｾﾐｴﾐｽﾐｰﾑ� ﾑ災ｽﾑ�ﾐｸﾐｺﾐｻﾐｾﾐｿﾐｵﾐｴﾐｸﾑ�&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;ru&quot;]},{&quot;name&quot;:&quot;ﾐ柘孟ｺﾑ孟ｿﾑ災ｴﾑ錦� (be-tarask)&quot;,&quot;description&quot;:&quot;ﾐ柘孟ｺﾑ孟ｿﾑ災ｴﾑ錦�, ﾐｲﾐｾﾐｻﾑ糊ｽﾐｰﾑ� ﾑ災ｽﾑ�ﾑ巾ｺﾐｻﾑ紹ｿﾑ災ｴﾑ錦�&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;be-tarask&quot;]},{&quot;name&quot;:&quot;Vikipﾄ電ija&quot;,&quot;description&quot;:&quot;Vikipﾄ電ija, brﾄｫvﾄ� enciklopﾄ電ija&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;lv&quot;]},{&quot;name&quot;:&quot;Biquipedia (an)&quot;,&quot;description&quot;:&quot;A enciclopedia Libre&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null,&quot;locales&quot;:[&quot;an&quot;]}],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;toolkit@mozilla.org&quot;,&quot;minVersion&quot;:null,&quot;maxVersion&quot;:null}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true,&quot;dependencies&quot;:[],&quot;incognito&quot;:&quot;spanning&quot;,&quot;userPermissions&quot;:{&quot;permissions&quot;:[],&quot;origins&quot;:[]},&quot;optionalPermissions&quot;:{&quot;permissions&quot;:[],&quot;origins&quot;:[]},&quot;icons&quot;:{&quot;16&quot;:&quot;favicon.ico&quot;},&quot;iconURL&quot;:null,&quot;blocklistState&quot;:0,&quot;blocklistURL&quot;:null,&quot;startupData&quot;:null,&quot;hidden&quot;:true,&quot;installTelemetryInfo&quot;:null,&quot;recommendationState&quot;:null,&quot;rootURI&quot;:&quot;resource://search-extensions/wikipedia/&quot;,&quot;location&quot;:&quot;app-builtin&quot;}&#10;1587775595116	addons.xpi	DEBUG	Loading bootstrap scope from resource://search-extensions/wikipedia/&#10;1587775595117	addons.xpi	DEBUG	Calling bootstrap method install on wikipedia@search.mozilla.org version 1.0&#10;1587775595117	addons.xpi	DEBUG	Calling bootstrap method startup on wikipedia@search.mozilla.org version 1.0&#10;1587775597718	addons.xpi	DEBUG	Calling bootstrap method shutdown on wikipedia@search.mozilla.org version 1.0&#10;1587775597720	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 9.0.0&#10;1587775597755	addons.xpi	DEBUG	Calling bootstrap method shutdown on twitter@search.mozilla.org version 1.0&#10;1587775597757	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 39.0.0&#10;1587775597766	addons.xpi	DEBUG	Calling bootstrap method shutdown on google@search.mozilla.org version 1.0&#10;1587775597768	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0&#10;1587775597770	addons.xpi	DEBUG	Calling bootstrap method shutdown on ebay@search.mozilla.org version 1.0&#10;1587775597773	addons.xpi	DEBUG	Calling bootstrap method shutdown on doh-rollout@mozilla.org version 1.3.0&#10;1587775597778	addons.xpi	DEBUG	Calling bootstrap method shutdown on default-theme@mozilla.org version 1.0&#10;1587775597782	addons.xpi	DEBUG	Calling bootstrap method shutdown on ddg@search.mozilla.org version 1.0&#10;1587775597783	addons.xpi	DEBUG	Calling bootstrap method shutdown on bing@search.mozilla.org version 1.1&#10;1587775597784	addons.xpi	DEBUG	Calling bootstrap method shutdown on amazondotcom@search.mozilla.org version 1.1&#10;[Parent 10948, Gecko_IOThread] WARNING: file Z:/task_1585933993/build/src/ipc/chromium/src/base/process_util_win.cc, line 166&#10;1587775599009	addons.manager	DEBUG	before shutdown&#10;1587775599038	addons.manager	DEBUG	shutdown&#10;1587775599042	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider&#10;1587775599042	addons.xpi	DEBUG	shutdown&#10;1587775599042	addons.xpi-utils	DEBUG	shutdown&#10;1587775599043	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider&#10;1587775599043	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider&#10;1587775599045	addons.manager	DEBUG	Async provider shutdown done&#10;&#10;###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost&#10;&#10;&#10;###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv&#10;&#10;&#10;Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;&#10;System info: host: &apos;DESKTOP-RCB252I&apos;, ip: &apos;192.168.43.9&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: driver.version: FirefoxDriver" type="org.springframework.beans.factory.BeanCreationException">org.springframework.beans.factory.BeanCreationException: 
+Error creating bean with name 'com.example.employee.selenium.welcome.HelloIT': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: org.openqa.selenium.WebDriver com.example.employee.selenium.welcome.HelloIT.webDriver; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webDriver' defined in class path resource [META-INF/spring/seleniumContext.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.firefox.FirefoxDriver]: Constructor threw exception; nested exception is org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+anslators":null,"contributors":null,"locales":["sv-SE"]},{"name":"犲ｧ犲ｴ犲≒ｺｴ犲樅ｺｵ狃�犲扉ｺ� (lo)","description":"犲ｧ犲ｴ犲≒ｺｴ犲樅ｺｵ狃�犲扉ｺ�, 犲ｪ犲ｲ犲･犲ｲ犲吭ｺｸ犲≒ｺｻ犲｡狃�犲ｪ犲･犲ｵ","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lo"]},{"name":"Wikipedija (sl)","description":"Wikipedija, prosta enciklopedija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sl"]},{"name":"ﾐ漬ｸﾐｺﾐｸﾐｿﾐｵﾐｴﾐｸﾑ� (ru)","description":"ﾐ漬ｸﾐｺﾐｸﾐｿﾐｵﾐｴﾐｸﾑ�, ﾑ�ﾐｲﾐｾﾐｱﾐｾﾐｴﾐｽﾐｰﾑ� ﾑ災ｽﾑ�ﾐｸﾐｺﾐｻﾐｾﾐｿﾐｵﾐｴﾐｸﾑ�","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ru"]},{"name":"ﾐ柘孟ｺﾑ孟ｿﾑ災ｴﾑ錦� (be-tarask)","description":"ﾐ柘孟ｺﾑ孟ｿﾑ災ｴﾑ錦�, ﾐｲﾐｾﾐｻﾑ糊ｽﾐｰﾑ� ﾑ災ｽﾑ�ﾑ巾ｺﾐｻﾑ紹ｿﾑ災ｴﾑ錦�","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["be-tarask"]},{"name":"Vikipﾄ電ija","description":"Vikipﾄ電ija, brﾄｫvﾄ� enciklopﾄ電ija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lv"]},{"name":"Biquipedia (an)","description":"A enciclopedia Libre","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["an"]}],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":null,"maxVersion":null}],"targetPlatforms":[],"seen":true,"dependencies":[],"incognito":"spanning","userPermissions":{"permissions":[],"origins":[]},"optionalPermissions":{"permissions":[],"origins":[]},"icons":{"16":"favicon.ico"},"iconURL":null,"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"installTelemetryInfo":null,"recommendationState":null,"rootURI":"resource://search-extensions/wikipedia/","location":"app-builtin"}
+1587775595116	addons.xpi	DEBUG	Loading bootstrap scope from resource://search-extensions/wikipedia/
+1587775595117	addons.xpi	DEBUG	Calling bootstrap method install on wikipedia@search.mozilla.org version 1.0
+1587775595117	addons.xpi	DEBUG	Calling bootstrap method startup on wikipedia@search.mozilla.org version 1.0
+1587775597718	addons.xpi	DEBUG	Calling bootstrap method shutdown on wikipedia@search.mozilla.org version 1.0
+1587775597720	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 9.0.0
+1587775597755	addons.xpi	DEBUG	Calling bootstrap method shutdown on twitter@search.mozilla.org version 1.0
+1587775597757	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 39.0.0
+1587775597766	addons.xpi	DEBUG	Calling bootstrap method shutdown on google@search.mozilla.org version 1.0
+1587775597768	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1587775597770	addons.xpi	DEBUG	Calling bootstrap method shutdown on ebay@search.mozilla.org version 1.0
+1587775597773	addons.xpi	DEBUG	Calling bootstrap method shutdown on doh-rollout@mozilla.org version 1.3.0
+1587775597778	addons.xpi	DEBUG	Calling bootstrap method shutdown on default-theme@mozilla.org version 1.0
+1587775597782	addons.xpi	DEBUG	Calling bootstrap method shutdown on ddg@search.mozilla.org version 1.0
+1587775597783	addons.xpi	DEBUG	Calling bootstrap method shutdown on bing@search.mozilla.org version 1.1
+1587775597784	addons.xpi	DEBUG	Calling bootstrap method shutdown on amazondotcom@search.mozilla.org version 1.1
+[Parent 10948, Gecko_IOThread] WARNING: file Z:/task_1585933993/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+1587775599009	addons.manager	DEBUG	before shutdown
+1587775599038	addons.manager	DEBUG	shutdown
+1587775599042	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1587775599042	addons.xpi	DEBUG	shutdown
+1587775599042	addons.xpi-utils	DEBUG	shutdown
+1587775599043	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1587775599043	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1587775599045	addons.manager	DEBUG	Async provider shutdown done
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'DESKTOP-RCB252I', ip: '192.168.43.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: FirefoxDriver
+Caused by: org.springframework.beans.factory.BeanCreationException: 
+Could not autowire field: org.openqa.selenium.WebDriver com.example.employee.selenium.welcome.HelloIT.webDriver; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webDriver' defined in class path resource [META-INF/spring/seleniumContext.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.firefox.FirefoxDriver]: Constructor threw exception; nested exception is org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+anslators":null,"contributors":null,"locales":["sv-SE"]},{"name":"犲ｧ犲ｴ犲≒ｺｴ犲樅ｺｵ狃�犲扉ｺ� (lo)","description":"犲ｧ犲ｴ犲≒ｺｴ犲樅ｺｵ狃�犲扉ｺ�, 犲ｪ犲ｲ犲･犲ｲ犲吭ｺｸ犲≒ｺｻ犲｡狃�犲ｪ犲･犲ｵ","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lo"]},{"name":"Wikipedija (sl)","description":"Wikipedija, prosta enciklopedija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sl"]},{"name":"ﾐ漬ｸﾐｺﾐｸﾐｿﾐｵﾐｴﾐｸﾑ� (ru)","description":"ﾐ漬ｸﾐｺﾐｸﾐｿﾐｵﾐｴﾐｸﾑ�, ﾑ�ﾐｲﾐｾﾐｱﾐｾﾐｴﾐｽﾐｰﾑ� ﾑ災ｽﾑ�ﾐｸﾐｺﾐｻﾐｾﾐｿﾐｵﾐｴﾐｸﾑ�","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ru"]},{"name":"ﾐ柘孟ｺﾑ孟ｿﾑ災ｴﾑ錦� (be-tarask)","description":"ﾐ柘孟ｺﾑ孟ｿﾑ災ｴﾑ錦�, ﾐｲﾐｾﾐｻﾑ糊ｽﾐｰﾑ� ﾑ災ｽﾑ�ﾑ巾ｺﾐｻﾑ紹ｿﾑ災ｴﾑ錦�","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["be-tarask"]},{"name":"Vikipﾄ電ija","description":"Vikipﾄ電ija, brﾄｫvﾄ� enciklopﾄ電ija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lv"]},{"name":"Biquipedia (an)","description":"A enciclopedia Libre","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["an"]}],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":null,"maxVersion":null}],"targetPlatforms":[],"seen":true,"dependencies":[],"incognito":"spanning","userPermissions":{"permissions":[],"origins":[]},"optionalPermissions":{"permissions":[],"origins":[]},"icons":{"16":"favicon.ico"},"iconURL":null,"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"installTelemetryInfo":null,"recommendationState":null,"rootURI":"resource://search-extensions/wikipedia/","location":"app-builtin"}
+1587775595116	addons.xpi	DEBUG	Loading bootstrap scope from resource://search-extensions/wikipedia/
+1587775595117	addons.xpi	DEBUG	Calling bootstrap method install on wikipedia@search.mozilla.org version 1.0
+1587775595117	addons.xpi	DEBUG	Calling bootstrap method startup on wikipedia@search.mozilla.org version 1.0
+1587775597718	addons.xpi	DEBUG	Calling bootstrap method shutdown on wikipedia@search.mozilla.org version 1.0
+1587775597720	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 9.0.0
+1587775597755	addons.xpi	DEBUG	Calling bootstrap method shutdown on twitter@search.mozilla.org version 1.0
+1587775597757	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 39.0.0
+1587775597766	addons.xpi	DEBUG	Calling bootstrap method shutdown on google@search.mozilla.org version 1.0
+1587775597768	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1587775597770	addons.xpi	DEBUG	Calling bootstrap method shutdown on ebay@search.mozilla.org version 1.0
+1587775597773	addons.xpi	DEBUG	Calling bootstrap method shutdown on doh-rollout@mozilla.org version 1.3.0
+1587775597778	addons.xpi	DEBUG	Calling bootstrap method shutdown on default-theme@mozilla.org version 1.0
+1587775597782	addons.xpi	DEBUG	Calling bootstrap method shutdown on ddg@search.mozilla.org version 1.0
+1587775597783	addons.xpi	DEBUG	Calling bootstrap method shutdown on bing@search.mozilla.org version 1.1
+1587775597784	addons.xpi	DEBUG	Calling bootstrap method shutdown on amazondotcom@search.mozilla.org version 1.1
+[Parent 10948, Gecko_IOThread] WARNING: file Z:/task_1585933993/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+1587775599009	addons.manager	DEBUG	before shutdown
+1587775599038	addons.manager	DEBUG	shutdown
+1587775599042	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1587775599042	addons.xpi	DEBUG	shutdown
+1587775599042	addons.xpi-utils	DEBUG	shutdown
+1587775599043	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1587775599043	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1587775599045	addons.manager	DEBUG	Async provider shutdown done
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'DESKTOP-RCB252I', ip: '192.168.43.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: FirefoxDriver
+Caused by: org.springframework.beans.factory.BeanCreationException: 
+Error creating bean with name 'webDriver' defined in class path resource [META-INF/spring/seleniumContext.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.firefox.FirefoxDriver]: Constructor threw exception; nested exception is org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+anslators":null,"contributors":null,"locales":["sv-SE"]},{"name":"犲ｧ犲ｴ犲≒ｺｴ犲樅ｺｵ狃�犲扉ｺ� (lo)","description":"犲ｧ犲ｴ犲≒ｺｴ犲樅ｺｵ狃�犲扉ｺ�, 犲ｪ犲ｲ犲･犲ｲ犲吭ｺｸ犲≒ｺｻ犲｡狃�犲ｪ犲･犲ｵ","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lo"]},{"name":"Wikipedija (sl)","description":"Wikipedija, prosta enciklopedija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sl"]},{"name":"ﾐ漬ｸﾐｺﾐｸﾐｿﾐｵﾐｴﾐｸﾑ� (ru)","description":"ﾐ漬ｸﾐｺﾐｸﾐｿﾐｵﾐｴﾐｸﾑ�, ﾑ�ﾐｲﾐｾﾐｱﾐｾﾐｴﾐｽﾐｰﾑ� ﾑ災ｽﾑ�ﾐｸﾐｺﾐｻﾐｾﾐｿﾐｵﾐｴﾐｸﾑ�","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ru"]},{"name":"ﾐ柘孟ｺﾑ孟ｿﾑ災ｴﾑ錦� (be-tarask)","description":"ﾐ柘孟ｺﾑ孟ｿﾑ災ｴﾑ錦�, ﾐｲﾐｾﾐｻﾑ糊ｽﾐｰﾑ� ﾑ災ｽﾑ�ﾑ巾ｺﾐｻﾑ紹ｿﾑ災ｴﾑ錦�","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["be-tarask"]},{"name":"Vikipﾄ電ija","description":"Vikipﾄ電ija, brﾄｫvﾄ� enciklopﾄ電ija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lv"]},{"name":"Biquipedia (an)","description":"A enciclopedia Libre","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["an"]}],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":null,"maxVersion":null}],"targetPlatforms":[],"seen":true,"dependencies":[],"incognito":"spanning","userPermissions":{"permissions":[],"origins":[]},"optionalPermissions":{"permissions":[],"origins":[]},"icons":{"16":"favicon.ico"},"iconURL":null,"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"installTelemetryInfo":null,"recommendationState":null,"rootURI":"resource://search-extensions/wikipedia/","location":"app-builtin"}
+1587775595116	addons.xpi	DEBUG	Loading bootstrap scope from resource://search-extensions/wikipedia/
+1587775595117	addons.xpi	DEBUG	Calling bootstrap method install on wikipedia@search.mozilla.org version 1.0
+1587775595117	addons.xpi	DEBUG	Calling bootstrap method startup on wikipedia@search.mozilla.org version 1.0
+1587775597718	addons.xpi	DEBUG	Calling bootstrap method shutdown on wikipedia@search.mozilla.org version 1.0
+1587775597720	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 9.0.0
+1587775597755	addons.xpi	DEBUG	Calling bootstrap method shutdown on twitter@search.mozilla.org version 1.0
+1587775597757	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 39.0.0
+1587775597766	addons.xpi	DEBUG	Calling bootstrap method shutdown on google@search.mozilla.org version 1.0
+1587775597768	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1587775597770	addons.xpi	DEBUG	Calling bootstrap method shutdown on ebay@search.mozilla.org version 1.0
+1587775597773	addons.xpi	DEBUG	Calling bootstrap method shutdown on doh-rollout@mozilla.org version 1.3.0
+1587775597778	addons.xpi	DEBUG	Calling bootstrap method shutdown on default-theme@mozilla.org version 1.0
+1587775597782	addons.xpi	DEBUG	Calling bootstrap method shutdown on ddg@search.mozilla.org version 1.0
+1587775597783	addons.xpi	DEBUG	Calling bootstrap method shutdown on bing@search.mozilla.org version 1.1
+1587775597784	addons.xpi	DEBUG	Calling bootstrap method shutdown on amazondotcom@search.mozilla.org version 1.1
+[Parent 10948, Gecko_IOThread] WARNING: file Z:/task_1585933993/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+1587775599009	addons.manager	DEBUG	before shutdown
+1587775599038	addons.manager	DEBUG	shutdown
+1587775599042	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1587775599042	addons.xpi	DEBUG	shutdown
+1587775599042	addons.xpi-utils	DEBUG	shutdown
+1587775599043	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1587775599043	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1587775599045	addons.manager	DEBUG	Async provider shutdown done
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'DESKTOP-RCB252I', ip: '192.168.43.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: FirefoxDriver
+Caused by: org.springframework.beans.BeanInstantiationException: 
+Failed to instantiate [org.openqa.selenium.firefox.FirefoxDriver]: Constructor threw exception; nested exception is org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+anslators":null,"contributors":null,"locales":["sv-SE"]},{"name":"犲ｧ犲ｴ犲≒ｺｴ犲樅ｺｵ狃�犲扉ｺ� (lo)","description":"犲ｧ犲ｴ犲≒ｺｴ犲樅ｺｵ狃�犲扉ｺ�, 犲ｪ犲ｲ犲･犲ｲ犲吭ｺｸ犲≒ｺｻ犲｡狃�犲ｪ犲･犲ｵ","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lo"]},{"name":"Wikipedija (sl)","description":"Wikipedija, prosta enciklopedija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sl"]},{"name":"ﾐ漬ｸﾐｺﾐｸﾐｿﾐｵﾐｴﾐｸﾑ� (ru)","description":"ﾐ漬ｸﾐｺﾐｸﾐｿﾐｵﾐｴﾐｸﾑ�, ﾑ�ﾐｲﾐｾﾐｱﾐｾﾐｴﾐｽﾐｰﾑ� ﾑ災ｽﾑ�ﾐｸﾐｺﾐｻﾐｾﾐｿﾐｵﾐｴﾐｸﾑ�","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ru"]},{"name":"ﾐ柘孟ｺﾑ孟ｿﾑ災ｴﾑ錦� (be-tarask)","description":"ﾐ柘孟ｺﾑ孟ｿﾑ災ｴﾑ錦�, ﾐｲﾐｾﾐｻﾑ糊ｽﾐｰﾑ� ﾑ災ｽﾑ�ﾑ巾ｺﾐｻﾑ紹ｿﾑ災ｴﾑ錦�","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["be-tarask"]},{"name":"Vikipﾄ電ija","description":"Vikipﾄ電ija, brﾄｫvﾄ� enciklopﾄ電ija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lv"]},{"name":"Biquipedia (an)","description":"A enciclopedia Libre","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["an"]}],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":null,"maxVersion":null}],"targetPlatforms":[],"seen":true,"dependencies":[],"incognito":"spanning","userPermissions":{"permissions":[],"origins":[]},"optionalPermissions":{"permissions":[],"origins":[]},"icons":{"16":"favicon.ico"},"iconURL":null,"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"installTelemetryInfo":null,"recommendationState":null,"rootURI":"resource://search-extensions/wikipedia/","location":"app-builtin"}
+1587775595116	addons.xpi	DEBUG	Loading bootstrap scope from resource://search-extensions/wikipedia/
+1587775595117	addons.xpi	DEBUG	Calling bootstrap method install on wikipedia@search.mozilla.org version 1.0
+1587775595117	addons.xpi	DEBUG	Calling bootstrap method startup on wikipedia@search.mozilla.org version 1.0
+1587775597718	addons.xpi	DEBUG	Calling bootstrap method shutdown on wikipedia@search.mozilla.org version 1.0
+1587775597720	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 9.0.0
+1587775597755	addons.xpi	DEBUG	Calling bootstrap method shutdown on twitter@search.mozilla.org version 1.0
+1587775597757	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 39.0.0
+1587775597766	addons.xpi	DEBUG	Calling bootstrap method shutdown on google@search.mozilla.org version 1.0
+1587775597768	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1587775597770	addons.xpi	DEBUG	Calling bootstrap method shutdown on ebay@search.mozilla.org version 1.0
+1587775597773	addons.xpi	DEBUG	Calling bootstrap method shutdown on doh-rollout@mozilla.org version 1.3.0
+1587775597778	addons.xpi	DEBUG	Calling bootstrap method shutdown on default-theme@mozilla.org version 1.0
+1587775597782	addons.xpi	DEBUG	Calling bootstrap method shutdown on ddg@search.mozilla.org version 1.0
+1587775597783	addons.xpi	DEBUG	Calling bootstrap method shutdown on bing@search.mozilla.org version 1.1
+1587775597784	addons.xpi	DEBUG	Calling bootstrap method shutdown on amazondotcom@search.mozilla.org version 1.1
+[Parent 10948, Gecko_IOThread] WARNING: file Z:/task_1585933993/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+1587775599009	addons.manager	DEBUG	before shutdown
+1587775599038	addons.manager	DEBUG	shutdown
+1587775599042	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1587775599042	addons.xpi	DEBUG	shutdown
+1587775599042	addons.xpi-utils	DEBUG	shutdown
+1587775599043	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1587775599043	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1587775599045	addons.manager	DEBUG	Async provider shutdown done
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'DESKTOP-RCB252I', ip: '192.168.43.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: FirefoxDriver
+Caused by: org.openqa.selenium.WebDriverException: 
+Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+anslators":null,"contributors":null,"locales":["sv-SE"]},{"name":"犲ｧ犲ｴ犲≒ｺｴ犲樅ｺｵ狃�犲扉ｺ� (lo)","description":"犲ｧ犲ｴ犲≒ｺｴ犲樅ｺｵ狃�犲扉ｺ�, 犲ｪ犲ｲ犲･犲ｲ犲吭ｺｸ犲≒ｺｻ犲｡狃�犲ｪ犲･犲ｵ","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lo"]},{"name":"Wikipedija (sl)","description":"Wikipedija, prosta enciklopedija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sl"]},{"name":"ﾐ漬ｸﾐｺﾐｸﾐｿﾐｵﾐｴﾐｸﾑ� (ru)","description":"ﾐ漬ｸﾐｺﾐｸﾐｿﾐｵﾐｴﾐｸﾑ�, ﾑ�ﾐｲﾐｾﾐｱﾐｾﾐｴﾐｽﾐｰﾑ� ﾑ災ｽﾑ�ﾐｸﾐｺﾐｻﾐｾﾐｿﾐｵﾐｴﾐｸﾑ�","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ru"]},{"name":"ﾐ柘孟ｺﾑ孟ｿﾑ災ｴﾑ錦� (be-tarask)","description":"ﾐ柘孟ｺﾑ孟ｿﾑ災ｴﾑ錦�, ﾐｲﾐｾﾐｻﾑ糊ｽﾐｰﾑ� ﾑ災ｽﾑ�ﾑ巾ｺﾐｻﾑ紹ｿﾑ災ｴﾑ錦�","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["be-tarask"]},{"name":"Vikipﾄ電ija","description":"Vikipﾄ電ija, brﾄｫvﾄ� enciklopﾄ電ija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lv"]},{"name":"Biquipedia (an)","description":"A enciclopedia Libre","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["an"]}],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":null,"maxVersion":null}],"targetPlatforms":[],"seen":true,"dependencies":[],"incognito":"spanning","userPermissions":{"permissions":[],"origins":[]},"optionalPermissions":{"permissions":[],"origins":[]},"icons":{"16":"favicon.ico"},"iconURL":null,"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"installTelemetryInfo":null,"recommendationState":null,"rootURI":"resource://search-extensions/wikipedia/","location":"app-builtin"}
+1587775595116	addons.xpi	DEBUG	Loading bootstrap scope from resource://search-extensions/wikipedia/
+1587775595117	addons.xpi	DEBUG	Calling bootstrap method install on wikipedia@search.mozilla.org version 1.0
+1587775595117	addons.xpi	DEBUG	Calling bootstrap method startup on wikipedia@search.mozilla.org version 1.0
+1587775597718	addons.xpi	DEBUG	Calling bootstrap method shutdown on wikipedia@search.mozilla.org version 1.0
+1587775597720	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 9.0.0
+1587775597755	addons.xpi	DEBUG	Calling bootstrap method shutdown on twitter@search.mozilla.org version 1.0
+1587775597757	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 39.0.0
+1587775597766	addons.xpi	DEBUG	Calling bootstrap method shutdown on google@search.mozilla.org version 1.0
+1587775597768	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1587775597770	addons.xpi	DEBUG	Calling bootstrap method shutdown on ebay@search.mozilla.org version 1.0
+1587775597773	addons.xpi	DEBUG	Calling bootstrap method shutdown on doh-rollout@mozilla.org version 1.3.0
+1587775597778	addons.xpi	DEBUG	Calling bootstrap method shutdown on default-theme@mozilla.org version 1.0
+1587775597782	addons.xpi	DEBUG	Calling bootstrap method shutdown on ddg@search.mozilla.org version 1.0
+1587775597783	addons.xpi	DEBUG	Calling bootstrap method shutdown on bing@search.mozilla.org version 1.1
+1587775597784	addons.xpi	DEBUG	Calling bootstrap method shutdown on amazondotcom@search.mozilla.org version 1.1
+[Parent 10948, Gecko_IOThread] WARNING: file Z:/task_1585933993/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+1587775599009	addons.manager	DEBUG	before shutdown
+1587775599038	addons.manager	DEBUG	shutdown
+1587775599042	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1587775599042	addons.xpi	DEBUG	shutdown
+1587775599042	addons.xpi-utils	DEBUG	shutdown
+1587775599043	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1587775599043	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1587775599045	addons.manager	DEBUG	Async provider shutdown done
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'DESKTOP-RCB252I', ip: '192.168.43.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: FirefoxDriver
+Caused by: org.openqa.selenium.firefox.NotConnectedException: 
+Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+anslators":null,"contributors":null,"locales":["sv-SE"]},{"name":"犲ｧ犲ｴ犲≒ｺｴ犲樅ｺｵ狃�犲扉ｺ� (lo)","description":"犲ｧ犲ｴ犲≒ｺｴ犲樅ｺｵ狃�犲扉ｺ�, 犲ｪ犲ｲ犲･犲ｲ犲吭ｺｸ犲≒ｺｻ犲｡狃�犲ｪ犲･犲ｵ","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lo"]},{"name":"Wikipedija (sl)","description":"Wikipedija, prosta enciklopedija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sl"]},{"name":"ﾐ漬ｸﾐｺﾐｸﾐｿﾐｵﾐｴﾐｸﾑ� (ru)","description":"ﾐ漬ｸﾐｺﾐｸﾐｿﾐｵﾐｴﾐｸﾑ�, ﾑ�ﾐｲﾐｾﾐｱﾐｾﾐｴﾐｽﾐｰﾑ� ﾑ災ｽﾑ�ﾐｸﾐｺﾐｻﾐｾﾐｿﾐｵﾐｴﾐｸﾑ�","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ru"]},{"name":"ﾐ柘孟ｺﾑ孟ｿﾑ災ｴﾑ錦� (be-tarask)","description":"ﾐ柘孟ｺﾑ孟ｿﾑ災ｴﾑ錦�, ﾐｲﾐｾﾐｻﾑ糊ｽﾐｰﾑ� ﾑ災ｽﾑ�ﾑ巾ｺﾐｻﾑ紹ｿﾑ災ｴﾑ錦�","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["be-tarask"]},{"name":"Vikipﾄ電ija","description":"Vikipﾄ電ija, brﾄｫvﾄ� enciklopﾄ電ija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lv"]},{"name":"Biquipedia (an)","description":"A enciclopedia Libre","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["an"]}],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":null,"maxVersion":null}],"targetPlatforms":[],"seen":true,"dependencies":[],"incognito":"spanning","userPermissions":{"permissions":[],"origins":[]},"optionalPermissions":{"permissions":[],"origins":[]},"icons":{"16":"favicon.ico"},"iconURL":null,"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"installTelemetryInfo":null,"recommendationState":null,"rootURI":"resource://search-extensions/wikipedia/","location":"app-builtin"}
+1587775595116	addons.xpi	DEBUG	Loading bootstrap scope from resource://search-extensions/wikipedia/
+1587775595117	addons.xpi	DEBUG	Calling bootstrap method install on wikipedia@search.mozilla.org version 1.0
+1587775595117	addons.xpi	DEBUG	Calling bootstrap method startup on wikipedia@search.mozilla.org version 1.0
+1587775597718	addons.xpi	DEBUG	Calling bootstrap method shutdown on wikipedia@search.mozilla.org version 1.0
+1587775597720	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 9.0.0
+1587775597755	addons.xpi	DEBUG	Calling bootstrap method shutdown on twitter@search.mozilla.org version 1.0
+1587775597757	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 39.0.0
+1587775597766	addons.xpi	DEBUG	Calling bootstrap method shutdown on google@search.mozilla.org version 1.0
+1587775597768	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1587775597770	addons.xpi	DEBUG	Calling bootstrap method shutdown on ebay@search.mozilla.org version 1.0
+1587775597773	addons.xpi	DEBUG	Calling bootstrap method shutdown on doh-rollout@mozilla.org version 1.3.0
+1587775597778	addons.xpi	DEBUG	Calling bootstrap method shutdown on default-theme@mozilla.org version 1.0
+1587775597782	addons.xpi	DEBUG	Calling bootstrap method shutdown on ddg@search.mozilla.org version 1.0
+1587775597783	addons.xpi	DEBUG	Calling bootstrap method shutdown on bing@search.mozilla.org version 1.1
+1587775597784	addons.xpi	DEBUG	Calling bootstrap method shutdown on amazondotcom@search.mozilla.org version 1.1
+[Parent 10948, Gecko_IOThread] WARNING: file Z:/task_1585933993/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+1587775599009	addons.manager	DEBUG	before shutdown
+1587775599038	addons.manager	DEBUG	shutdown
+1587775599042	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1587775599042	addons.xpi	DEBUG	shutdown
+1587775599042	addons.xpi-utils	DEBUG	shutdown
+1587775599043	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1587775599043	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1587775599045	addons.manager	DEBUG	Async provider shutdown done
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+</error>
+    <system-out><![CDATA[07:16:21.895 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.example.employee.selenium.welcome.HelloIT]
+07:16:21.905 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+07:16:21.913 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+07:16:21.934 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.employee.selenium.welcome.HelloIT] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+07:16:21.999 [main] DEBUG org.springframework.test.context.support.AbstractDelegatingSmartContextLoader - Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@5383967b declaringClass = 'com.example.employee.selenium.welcome.HelloIT', classes = '{}', locations = '{classpath:META-INF/spring/seleniumContext.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+07:16:22.017 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.employee.selenium.welcome.HelloIT]
+07:16:22.029 [main] DEBUG org.springframework.test.context.support.DefaultTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.employee.selenium.welcome.HelloIT]: using defaults.
+07:16:22.051 [main] INFO org.springframework.test.context.support.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+07:16:22.061 [main] INFO org.springframework.test.context.support.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+07:16:22.084 [main] INFO org.springframework.test.context.support.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1f7030a6, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5a1c0542, org.springframework.test.context.support.DirtiesContextTestExecutionListener@396f6598, org.springframework.test.context.transaction.TransactionalTestExecutionListener@394e1a0f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@27a5f880]
+07:16:22.092 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.employee.selenium.welcome.HelloIT]
+07:16:22.093 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.employee.selenium.welcome.HelloIT]
+07:16:22.103 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.example.employee.selenium.welcome.HelloIT]
+07:16:22.105 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+07:16:22.105 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+07:16:22.106 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.employee.selenium.welcome.HelloIT] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+07:16:22.109 [main] DEBUG org.springframework.test.context.support.AbstractDelegatingSmartContextLoader - Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@4493d195 declaringClass = 'com.example.employee.selenium.welcome.HelloIT', classes = '{}', locations = '{classpath:META-INF/spring/seleniumContext.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+07:16:22.110 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.employee.selenium.welcome.HelloIT]
+07:16:22.110 [main] DEBUG org.springframework.test.context.support.DefaultTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.employee.selenium.welcome.HelloIT]: using defaults.
+07:16:22.113 [main] INFO org.springframework.test.context.support.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+07:16:22.114 [main] INFO org.springframework.test.context.support.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+07:16:22.114 [main] INFO org.springframework.test.context.support.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@11438d26, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@34cd072c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7a1ebcd8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5faeada1, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@528931cf]
+07:16:22.115 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.employee.selenium.welcome.HelloIT]
+07:16:22.116 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.employee.selenium.welcome.HelloIT]
+07:16:22.116 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.employee.selenium.welcome.HelloIT]
+07:16:22.118 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.employee.selenium.welcome.HelloIT]
+07:16:22.120 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.employee.selenium.welcome.HelloIT]
+07:16:22.120 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.employee.selenium.welcome.HelloIT]
+07:16:22.125 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@76b0bfab testClass = HelloIT, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@17d677df testClass = HelloIT, locations = '{classpath:META-INF/spring/seleniumContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+07:16:22.126 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.employee.selenium.welcome.HelloIT]
+07:16:22.126 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.employee.selenium.welcome.HelloIT]
+07:16:22.130 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@76b0bfab testClass = HelloIT, testInstance = com.example.employee.selenium.welcome.HelloIT@2a556333, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@17d677df testClass = HelloIT, locations = '{classpath:META-INF/spring/seleniumContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]].
+07:16:22.131 [main] DEBUG org.springframework.test.context.support.AbstractDelegatingSmartContextLoader - Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@17d677df testClass = HelloIT, locations = '{classpath:META-INF/spring/seleniumContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+07:16:22.131 [main] DEBUG org.springframework.test.context.support.AbstractGenericContextLoader - Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@17d677df testClass = HelloIT, locations = '{classpath:META-INF/spring/seleniumContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+07:16:22.332 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+07:16:22.337 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+07:16:22.340 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+07:16:22.395 [main] INFO org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [META-INF/spring/seleniumContext.xml]
+07:16:22.577 [main] DEBUG org.springframework.beans.factory.xml.DefaultDocumentLoader - Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+07:16:22.872 [main] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver - Loading schema mappings from [META-INF/spring.schemas]
+07:16:22.879 [main] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver - Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/cache/spring-cache-4.2.xsd=org/springframework/cache/config/spring-cache-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-4.1.xsd=org/springframework/aop/config/spring-aop-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/data/repository/spring-repository-1.4.xsd=org/springframework/data/repository/config/spring-repository-1.4.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.1.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/security/spring-security-3.0.3.xsd=org/springframework/security/config/spring-security-3.0.3.xsd, http://mybatis.org/schema/mybatis-spring-1.2.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/security/spring-security-2.0.1.xsd=org/springframework/security/config/spring-security-2.0.1.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.1.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.2.xsd=org/springframework/beans/factory/xml/spring-beans-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-4.1.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.1.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/task/spring-task-4.2.xsd=org/springframework/scheduling/config/spring-task-4.2.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx-4.2.xsd=org/springframework/transaction/config/spring-tx-4.2.xsd, http://www.springframework.org/schema/cache/spring-cache-4.1.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/security/spring-security-2.0.xsd=org/springframework/security/config/spring-security-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/data/repository/spring-repository-1.8.xsd=org/springframework/data/repository/config/spring-repository-1.8.xsd, http://www.springframework.org/schema/beans/spring-beans-4.1.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/task/spring-task-4.1.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-4.1.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/util/spring-util-4.2.xsd=org/springframework/beans/factory/xml/spring-util-4.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/data/repository/spring-repository.xsd=org/springframework/data/repository/config/spring-repository-1.11.xsd, http://www.springframework.org/schema/data/repository/spring-repository-1.7.xsd=org/springframework/data/repository/config/spring-repository-1.7.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.2.xsd, http://www.springframework.org/schema/security/spring-security-2.0.4.xsd=org/springframework/security/config/spring-security-2.0.4.xsd, http://mybatis.org/schema/mybatis-spring.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/security/spring-security-3.2.xsd=org/springframework/security/config/spring-security-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/util/spring-util-4.1.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/data/repository/spring-repository-1.6.xsd=org/springframework/data/repository/config/spring-repository-1.6.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-4.2.xsd=org/springframework/context/config/spring-context-4.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/security/spring-security-3.1.xsd=org/springframework/security/config/spring-security-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/data/repository/spring-repository-1.0.xsd=org/springframework/data/repository/config/spring-repository-1.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-4.2.xsd=org/springframework/aop/config/spring-aop-4.2.xsd, http://www.springframework.org/schema/security/spring-security-4.0.xsd=org/springframework/security/config/spring-security-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.2.xsd=org/springframework/jdbc/config/spring-jdbc-4.2.xsd, http://www.springframework.org/schema/data/repository/spring-repository-1.5.xsd=org/springframework/data/repository/config/spring-repository-1.5.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.2.xsd, http://www.springframework.org/schema/security/spring-security-2.0.2.xsd=org/springframework/security/config/spring-security-2.0.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.2.xsd=org/springframework/scripting/config/spring-lang-4.2.xsd, http://www.springframework.org/schema/context/spring-context-4.1.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-4.2.xsd=org/springframework/beans/factory/xml/spring-tool-4.2.xsd, http://www.springframework.org/schema/security/spring-security.xsd=org/springframework/security/config/spring-security-4.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://dozer.sourceforge.net/schema/dozer-spring.xsd=dozer-spring.xsd, http://www.springframework.org/schema/security/spring-security-3.0.xsd=org/springframework/security/config/spring-security-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-4.2.xsd=org/springframework/ejb/config/spring-jee-4.2.xsd, http://www.springframework.org/schema/data/repository/spring-repository-1.11.xsd=org/springframework/data/repository/config/spring-repository-1.11.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.2.xsd}
+07:16:22.882 [main] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver - Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.2.xsd
+07:16:23.011 [main] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver - Found XML schema [http://www.springframework.org/schema/context/spring-context.xsd] in classpath: org/springframework/context/config/spring-context-4.2.xsd
+07:16:23.025 [main] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-4.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.2.xsd
+07:16:23.045 [main] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader - Loading bean definitions
+07:16:23.074 [main] DEBUG org.springframework.beans.factory.xml.DefaultNamespaceHandlerResolver - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/data/repository=org.springframework.data.repository.config.RepositoryNameSpaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://mybatis.org/schema/mybatis-spring=org.mybatis.spring.config.NamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/security=org.springframework.security.config.SecurityNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://dozer.sourceforge.net/schema/dozer-spring=org.dozer.spring.DozerNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/data/keyvalue=org.springframework.data.keyvalue.repository.config.KeyValueRepositoryNameSpaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+07:16:23.101 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 2 bean definitions from location pattern [classpath:META-INF/spring/seleniumContext.xml]
+07:16:23.133 [main] INFO org.springframework.context.support.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@670b40af: startup date [Sat Apr 25 07:16:23 MMT 2020]; root of context hierarchy
+07:16:23.135 [main] DEBUG org.springframework.context.support.GenericApplicationContext - Bean factory for org.springframework.context.support.GenericApplicationContext@670b40af: org.springframework.beans.factory.support.DefaultListableBeanFactory@671a5887: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,webDriver,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory]; root of factory hierarchy
+07:16:23.180 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+07:16:23.180 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+07:16:23.211 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+07:16:23.214 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+07:16:23.270 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+07:16:23.270 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+07:16:23.273 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0' to allow for resolving potential circular references
+07:16:23.327 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [META-INF/spring/] to resources [URL [file:/D:/Employee/employee/employee-selenium/target/test-classes/META-INF/spring/], URL [jar:file:/D:/Employee/employee/employee-domain/target/employee-domain-1.0.0-SNAPSHOT.jar!/META-INF/spring/]]
+07:16:23.328 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [D:\Employee\employee\employee-selenium\target\test-classes\META-INF\spring]
+07:16:23.328 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [D:\Employee\employee\employee-selenium\target\test-classes\META-INF\spring] for files matching pattern [D:/Employee/employee/employee-selenium/target/test-classes/META-INF/spring/*.properties]
+07:16:23.334 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Employee/employee/employee-domain/target/employee-domain-1.0.0-SNAPSHOT.jar]
+07:16:23.335 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:META-INF/spring/*.properties] to resources [file [D:\Employee\employee\employee-selenium\target\test-classes\META-INF\spring\selenium.properties]]
+07:16:23.338 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+07:16:23.339 [main] DEBUG org.springframework.core.env.MutablePropertySources - Adding [environmentProperties] PropertySource with lowest search precedence
+07:16:23.339 [main] INFO org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from file [D:\Employee\employee\employee-selenium\target\test-classes\META-INF\spring\selenium.properties]
+07:16:23.342 [main] DEBUG org.springframework.core.env.MutablePropertySources - Adding [localProperties] PropertySource with lowest search precedence
+07:16:23.347 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+07:16:23.347 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+07:16:23.349 [main] INFO org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+07:16:23.349 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+07:16:23.349 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+07:16:23.350 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+07:16:23.352 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+07:16:23.352 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+07:16:23.352 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+07:16:23.352 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+07:16:23.353 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+07:16:23.358 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+07:16:23.358 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+07:16:23.358 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+07:16:23.358 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+07:16:23.359 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+07:16:23.359 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+07:16:23.359 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+07:16:23.359 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+07:16:23.359 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+07:16:23.360 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+07:16:23.364 [main] DEBUG org.springframework.context.support.GenericApplicationContext - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@20140db9]
+07:16:23.369 [main] DEBUG org.springframework.context.support.GenericApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@63376bed]
+07:16:23.373 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@671a5887: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,webDriver,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy
+07:16:23.373 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+07:16:23.374 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+07:16:23.374 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+07:16:23.374 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+07:16:23.374 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+07:16:23.374 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+07:16:23.374 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+07:16:23.387 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+07:16:23.391 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+07:16:23.391 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+07:16:23.391 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+07:16:23.392 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+07:16:23.395 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+07:16:23.395 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+07:16:23.395 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+07:16:23.395 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+07:16:23.454 [main] DEBUG org.springframework.context.support.GenericApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@7d9d0818]
+07:16:23.455 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'lifecycleProcessor'
+07:16:23.457 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+07:16:23.458 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+07:16:23.458 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+07:16:23.461 [main] DEBUG org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate - Storing ApplicationContext in cache under key [[MergedContextConfiguration@17d677df testClass = HelloIT, locations = '{classpath:META-INF/spring/seleniumContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+07:16:23.462 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@7c37508a size = 1, parentContextCount = 0, hitCount = 0, missCount = 1]
+07:16:23.469 [main] DEBUG org.springframework.beans.factory.annotation.InjectionMetadata - Processing injected element of bean 'com.example.employee.selenium.welcome.HelloIT': AutowiredFieldElement for org.openqa.selenium.WebDriver com.example.employee.selenium.welcome.HelloIT.webDriver
+07:16:23.473 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'webDriver'
+07:17:11.860 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@34cd072c] to prepare test instance [com.example.employee.selenium.welcome.HelloIT@2a556333]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.example.employee.selenium.welcome.HelloIT': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: org.openqa.selenium.WebDriver com.example.employee.selenium.welcome.HelloIT.webDriver; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webDriver' defined in class path resource [META-INF/spring/seleniumContext.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.firefox.FirefoxDriver]: Constructor threw exception; nested exception is org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+anslators":null,"contributors":null,"locales":["sv-SE"]},{"name":"犲ｧ犲ｴ犲≒ｺｴ犲樅ｺｵ狃?犲扉ｺ? (lo)","description":"犲ｧ犲ｴ犲≒ｺｴ犲樅ｺｵ狃?犲扉ｺ?, 犲ｪ犲ｲ犲･犲ｲ犲吭ｺｸ犲≒ｺｻ犲｡狃?犲ｪ犲･犲ｵ","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lo"]},{"name":"Wikipedija (sl)","description":"Wikipedija, prosta enciklopedija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sl"]},{"name":"ﾐ漬ｸﾐｺﾐｸﾐｿﾐｵﾐｴﾐｸﾑ? (ru)","description":"ﾐ漬ｸﾐｺﾐｸﾐｿﾐｵﾐｴﾐｸﾑ?, ﾑ?ﾐｲﾐｾﾐｱﾐｾﾐｴﾐｽﾐｰﾑ? ﾑ災ｽﾑ?ﾐｸﾐｺﾐｻﾐｾﾐｿﾐｵﾐｴﾐｸﾑ?","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ru"]},{"name":"ﾐ柘孟ｺﾑ孟ｿﾑ災ｴﾑ錦? (be-tarask)","description":"ﾐ柘孟ｺﾑ孟ｿﾑ災ｴﾑ錦?, ﾐｲﾐｾﾐｻﾑ糊ｽﾐｰﾑ? ﾑ災ｽﾑ?ﾑ巾ｺﾐｻﾑ紹ｿﾑ災ｴﾑ錦?","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["be-tarask"]},{"name":"Vikipﾄ電ija","description":"Vikipﾄ電ija, brﾄｫvﾄ? enciklopﾄ電ija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lv"]},{"name":"Biquipedia (an)","description":"A enciclopedia Libre","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["an"]}],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":null,"maxVersion":null}],"targetPlatforms":[],"seen":true,"dependencies":[],"incognito":"spanning","userPermissions":{"permissions":[],"origins":[]},"optionalPermissions":{"permissions":[],"origins":[]},"icons":{"16":"favicon.ico"},"iconURL":null,"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"installTelemetryInfo":null,"recommendationState":null,"rootURI":"resource://search-extensions/wikipedia/","location":"app-builtin"}
+1587775595116	addons.xpi	DEBUG	Loading bootstrap scope from resource://search-extensions/wikipedia/
+1587775595117	addons.xpi	DEBUG	Calling bootstrap method install on wikipedia@search.mozilla.org version 1.0
+1587775595117	addons.xpi	DEBUG	Calling bootstrap method startup on wikipedia@search.mozilla.org version 1.0
+1587775597718	addons.xpi	DEBUG	Calling bootstrap method shutdown on wikipedia@search.mozilla.org version 1.0
+1587775597720	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 9.0.0
+1587775597755	addons.xpi	DEBUG	Calling bootstrap method shutdown on twitter@search.mozilla.org version 1.0
+1587775597757	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 39.0.0
+1587775597766	addons.xpi	DEBUG	Calling bootstrap method shutdown on google@search.mozilla.org version 1.0
+1587775597768	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1587775597770	addons.xpi	DEBUG	Calling bootstrap method shutdown on ebay@search.mozilla.org version 1.0
+1587775597773	addons.xpi	DEBUG	Calling bootstrap method shutdown on doh-rollout@mozilla.org version 1.3.0
+1587775597778	addons.xpi	DEBUG	Calling bootstrap method shutdown on default-theme@mozilla.org version 1.0
+1587775597782	addons.xpi	DEBUG	Calling bootstrap method shutdown on ddg@search.mozilla.org version 1.0
+1587775597783	addons.xpi	DEBUG	Calling bootstrap method shutdown on bing@search.mozilla.org version 1.1
+1587775597784	addons.xpi	DEBUG	Calling bootstrap method shutdown on amazondotcom@search.mozilla.org version 1.1
+[Parent 10948, Gecko_IOThread] WARNING: file Z:/task_1585933993/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+1587775599009	addons.manager	DEBUG	before shutdown
+1587775599038	addons.manager	DEBUG	shutdown
+1587775599042	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1587775599042	addons.xpi	DEBUG	shutdown
+1587775599042	addons.xpi-utils	DEBUG	shutdown
+1587775599043	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1587775599043	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1587775599045	addons.manager	DEBUG	Async provider shutdown done
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'DESKTOP-RCB252I', ip: '192.168.43.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: FirefoxDriver
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:385)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:249)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:344)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:269)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:184)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: org.openqa.selenium.WebDriver com.example.employee.selenium.welcome.HelloIT.webDriver; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webDriver' defined in class path resource [META-INF/spring/seleniumContext.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.firefox.FirefoxDriver]: Constructor threw exception; nested exception is org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+anslators":null,"contributors":null,"locales":["sv-SE"]},{"name":"犲ｧ犲ｴ犲≒ｺｴ犲樅ｺｵ狃?犲扉ｺ? (lo)","description":"犲ｧ犲ｴ犲≒ｺｴ犲樅ｺｵ狃?犲扉ｺ?, 犲ｪ犲ｲ犲･犲ｲ犲吭ｺｸ犲≒ｺｻ犲｡狃?犲ｪ犲･犲ｵ","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lo"]},{"name":"Wikipedija (sl)","description":"Wikipedija, prosta enciklopedija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sl"]},{"name":"ﾐ漬ｸﾐｺﾐｸﾐｿﾐｵﾐｴﾐｸﾑ? (ru)","description":"ﾐ漬ｸﾐｺﾐｸﾐｿﾐｵﾐｴﾐｸﾑ?, ﾑ?ﾐｲﾐｾﾐｱﾐｾﾐｴﾐｽﾐｰﾑ? ﾑ災ｽﾑ?ﾐｸﾐｺﾐｻﾐｾﾐｿﾐｵﾐｴﾐｸﾑ?","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ru"]},{"name":"ﾐ柘孟ｺﾑ孟ｿﾑ災ｴﾑ錦? (be-tarask)","description":"ﾐ柘孟ｺﾑ孟ｿﾑ災ｴﾑ錦?, ﾐｲﾐｾﾐｻﾑ糊ｽﾐｰﾑ? ﾑ災ｽﾑ?ﾑ巾ｺﾐｻﾑ紹ｿﾑ災ｴﾑ錦?","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["be-tarask"]},{"name":"Vikipﾄ電ija","description":"Vikipﾄ電ija, brﾄｫvﾄ? enciklopﾄ電ija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lv"]},{"name":"Biquipedia (an)","description":"A enciclopedia Libre","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["an"]}],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":null,"maxVersion":null}],"targetPlatforms":[],"seen":true,"dependencies":[],"incognito":"spanning","userPermissions":{"permissions":[],"origins":[]},"optionalPermissions":{"permissions":[],"origins":[]},"icons":{"16":"favicon.ico"},"iconURL":null,"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"installTelemetryInfo":null,"recommendationState":null,"rootURI":"resource://search-extensions/wikipedia/","location":"app-builtin"}
+1587775595116	addons.xpi	DEBUG	Loading bootstrap scope from resource://search-extensions/wikipedia/
+1587775595117	addons.xpi	DEBUG	Calling bootstrap method install on wikipedia@search.mozilla.org version 1.0
+1587775595117	addons.xpi	DEBUG	Calling bootstrap method startup on wikipedia@search.mozilla.org version 1.0
+1587775597718	addons.xpi	DEBUG	Calling bootstrap method shutdown on wikipedia@search.mozilla.org version 1.0
+1587775597720	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 9.0.0
+1587775597755	addons.xpi	DEBUG	Calling bootstrap method shutdown on twitter@search.mozilla.org version 1.0
+1587775597757	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 39.0.0
+1587775597766	addons.xpi	DEBUG	Calling bootstrap method shutdown on google@search.mozilla.org version 1.0
+1587775597768	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1587775597770	addons.xpi	DEBUG	Calling bootstrap method shutdown on ebay@search.mozilla.org version 1.0
+1587775597773	addons.xpi	DEBUG	Calling bootstrap method shutdown on doh-rollout@mozilla.org version 1.3.0
+1587775597778	addons.xpi	DEBUG	Calling bootstrap method shutdown on default-theme@mozilla.org version 1.0
+1587775597782	addons.xpi	DEBUG	Calling bootstrap method shutdown on ddg@search.mozilla.org version 1.0
+1587775597783	addons.xpi	DEBUG	Calling bootstrap method shutdown on bing@search.mozilla.org version 1.1
+1587775597784	addons.xpi	DEBUG	Calling bootstrap method shutdown on amazondotcom@search.mozilla.org version 1.1
+[Parent 10948, Gecko_IOThread] WARNING: file Z:/task_1585933993/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+1587775599009	addons.manager	DEBUG	before shutdown
+1587775599038	addons.manager	DEBUG	shutdown
+1587775599042	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1587775599042	addons.xpi	DEBUG	shutdown
+1587775599042	addons.xpi-utils	DEBUG	shutdown
+1587775599043	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1587775599043	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1587775599045	addons.manager	DEBUG	Async provider shutdown done
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'DESKTOP-RCB252I', ip: '192.168.43.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: FirefoxDriver
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:573)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 27 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webDriver' defined in class path resource [META-INF/spring/seleniumContext.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.firefox.FirefoxDriver]: Constructor threw exception; nested exception is org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+anslators":null,"contributors":null,"locales":["sv-SE"]},{"name":"犲ｧ犲ｴ犲≒ｺｴ犲樅ｺｵ狃?犲扉ｺ? (lo)","description":"犲ｧ犲ｴ犲≒ｺｴ犲樅ｺｵ狃?犲扉ｺ?, 犲ｪ犲ｲ犲･犲ｲ犲吭ｺｸ犲≒ｺｻ犲｡狃?犲ｪ犲･犲ｵ","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lo"]},{"name":"Wikipedija (sl)","description":"Wikipedija, prosta enciklopedija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sl"]},{"name":"ﾐ漬ｸﾐｺﾐｸﾐｿﾐｵﾐｴﾐｸﾑ? (ru)","description":"ﾐ漬ｸﾐｺﾐｸﾐｿﾐｵﾐｴﾐｸﾑ?, ﾑ?ﾐｲﾐｾﾐｱﾐｾﾐｴﾐｽﾐｰﾑ? ﾑ災ｽﾑ?ﾐｸﾐｺﾐｻﾐｾﾐｿﾐｵﾐｴﾐｸﾑ?","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ru"]},{"name":"ﾐ柘孟ｺﾑ孟ｿﾑ災ｴﾑ錦? (be-tarask)","description":"ﾐ柘孟ｺﾑ孟ｿﾑ災ｴﾑ錦?, ﾐｲﾐｾﾐｻﾑ糊ｽﾐｰﾑ? ﾑ災ｽﾑ?ﾑ巾ｺﾐｻﾑ紹ｿﾑ災ｴﾑ錦?","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["be-tarask"]},{"name":"Vikipﾄ電ija","description":"Vikipﾄ電ija, brﾄｫvﾄ? enciklopﾄ電ija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lv"]},{"name":"Biquipedia (an)","description":"A enciclopedia Libre","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["an"]}],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":null,"maxVersion":null}],"targetPlatforms":[],"seen":true,"dependencies":[],"incognito":"spanning","userPermissions":{"permissions":[],"origins":[]},"optionalPermissions":{"permissions":[],"origins":[]},"icons":{"16":"favicon.ico"},"iconURL":null,"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"installTelemetryInfo":null,"recommendationState":null,"rootURI":"resource://search-extensions/wikipedia/","location":"app-builtin"}
+1587775595116	addons.xpi	DEBUG	Loading bootstrap scope from resource://search-extensions/wikipedia/
+1587775595117	addons.xpi	DEBUG	Calling bootstrap method install on wikipedia@search.mozilla.org version 1.0
+1587775595117	addons.xpi	DEBUG	Calling bootstrap method startup on wikipedia@search.mozilla.org version 1.0
+1587775597718	addons.xpi	DEBUG	Calling bootstrap method shutdown on wikipedia@search.mozilla.org version 1.0
+1587775597720	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 9.0.0
+1587775597755	addons.xpi	DEBUG	Calling bootstrap method shutdown on twitter@search.mozilla.org version 1.0
+1587775597757	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 39.0.0
+1587775597766	addons.xpi	DEBUG	Calling bootstrap method shutdown on google@search.mozilla.org version 1.0
+1587775597768	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1587775597770	addons.xpi	DEBUG	Calling bootstrap method shutdown on ebay@search.mozilla.org version 1.0
+1587775597773	addons.xpi	DEBUG	Calling bootstrap method shutdown on doh-rollout@mozilla.org version 1.3.0
+1587775597778	addons.xpi	DEBUG	Calling bootstrap method shutdown on default-theme@mozilla.org version 1.0
+1587775597782	addons.xpi	DEBUG	Calling bootstrap method shutdown on ddg@search.mozilla.org version 1.0
+1587775597783	addons.xpi	DEBUG	Calling bootstrap method shutdown on bing@search.mozilla.org version 1.1
+1587775597784	addons.xpi	DEBUG	Calling bootstrap method shutdown on amazondotcom@search.mozilla.org version 1.1
+[Parent 10948, Gecko_IOThread] WARNING: file Z:/task_1585933993/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+1587775599009	addons.manager	DEBUG	before shutdown
+1587775599038	addons.manager	DEBUG	shutdown
+1587775599042	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1587775599042	addons.xpi	DEBUG	shutdown
+1587775599042	addons.xpi-utils	DEBUG	shutdown
+1587775599043	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1587775599043	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1587775599045	addons.manager	DEBUG	Async provider shutdown done
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'DESKTOP-RCB252I', ip: '192.168.43.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: FirefoxDriver
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1105)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1050)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:545)
+	... 29 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.firefox.FirefoxDriver]: Constructor threw exception; nested exception is org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+anslators":null,"contributors":null,"locales":["sv-SE"]},{"name":"犲ｧ犲ｴ犲≒ｺｴ犲樅ｺｵ狃?犲扉ｺ? (lo)","description":"犲ｧ犲ｴ犲≒ｺｴ犲樅ｺｵ狃?犲扉ｺ?, 犲ｪ犲ｲ犲･犲ｲ犲吭ｺｸ犲≒ｺｻ犲｡狃?犲ｪ犲･犲ｵ","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lo"]},{"name":"Wikipedija (sl)","description":"Wikipedija, prosta enciklopedija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sl"]},{"name":"ﾐ漬ｸﾐｺﾐｸﾐｿﾐｵﾐｴﾐｸﾑ? (ru)","description":"ﾐ漬ｸﾐｺﾐｸﾐｿﾐｵﾐｴﾐｸﾑ?, ﾑ?ﾐｲﾐｾﾐｱﾐｾﾐｴﾐｽﾐｰﾑ? ﾑ災ｽﾑ?ﾐｸﾐｺﾐｻﾐｾﾐｿﾐｵﾐｴﾐｸﾑ?","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ru"]},{"name":"ﾐ柘孟ｺﾑ孟ｿﾑ災ｴﾑ錦? (be-tarask)","description":"ﾐ柘孟ｺﾑ孟ｿﾑ災ｴﾑ錦?, ﾐｲﾐｾﾐｻﾑ糊ｽﾐｰﾑ? ﾑ災ｽﾑ?ﾑ巾ｺﾐｻﾑ紹ｿﾑ災ｴﾑ錦?","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["be-tarask"]},{"name":"Vikipﾄ電ija","description":"Vikipﾄ電ija, brﾄｫvﾄ? enciklopﾄ電ija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lv"]},{"name":"Biquipedia (an)","description":"A enciclopedia Libre","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["an"]}],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":null,"maxVersion":null}],"targetPlatforms":[],"seen":true,"dependencies":[],"incognito":"spanning","userPermissions":{"permissions":[],"origins":[]},"optionalPermissions":{"permissions":[],"origins":[]},"icons":{"16":"favicon.ico"},"iconURL":null,"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"installTelemetryInfo":null,"recommendationState":null,"rootURI":"resource://search-extensions/wikipedia/","location":"app-builtin"}
+1587775595116	addons.xpi	DEBUG	Loading bootstrap scope from resource://search-extensions/wikipedia/
+1587775595117	addons.xpi	DEBUG	Calling bootstrap method install on wikipedia@search.mozilla.org version 1.0
+1587775595117	addons.xpi	DEBUG	Calling bootstrap method startup on wikipedia@search.mozilla.org version 1.0
+1587775597718	addons.xpi	DEBUG	Calling bootstrap method shutdown on wikipedia@search.mozilla.org version 1.0
+1587775597720	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 9.0.0
+1587775597755	addons.xpi	DEBUG	Calling bootstrap method shutdown on twitter@search.mozilla.org version 1.0
+1587775597757	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 39.0.0
+1587775597766	addons.xpi	DEBUG	Calling bootstrap method shutdown on google@search.mozilla.org version 1.0
+1587775597768	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1587775597770	addons.xpi	DEBUG	Calling bootstrap method shutdown on ebay@search.mozilla.org version 1.0
+1587775597773	addons.xpi	DEBUG	Calling bootstrap method shutdown on doh-rollout@mozilla.org version 1.3.0
+1587775597778	addons.xpi	DEBUG	Calling bootstrap method shutdown on default-theme@mozilla.org version 1.0
+1587775597782	addons.xpi	DEBUG	Calling bootstrap method shutdown on ddg@search.mozilla.org version 1.0
+1587775597783	addons.xpi	DEBUG	Calling bootstrap method shutdown on bing@search.mozilla.org version 1.1
+1587775597784	addons.xpi	DEBUG	Calling bootstrap method shutdown on amazondotcom@search.mozilla.org version 1.1
+[Parent 10948, Gecko_IOThread] WARNING: file Z:/task_1585933993/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+1587775599009	addons.manager	DEBUG	before shutdown
+1587775599038	addons.manager	DEBUG	shutdown
+1587775599042	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1587775599042	addons.xpi	DEBUG	shutdown
+1587775599042	addons.xpi-utils	DEBUG	shutdown
+1587775599043	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1587775599043	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1587775599045	addons.manager	DEBUG	Async provider shutdown done
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'DESKTOP-RCB252I', ip: '192.168.43.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: FirefoxDriver
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:163)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:89)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1098)
+	... 38 common frames omitted
+Caused by: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+anslators":null,"contributors":null,"locales":["sv-SE"]},{"name":"犲ｧ犲ｴ犲≒ｺｴ犲樅ｺｵ狃?犲扉ｺ? (lo)","description":"犲ｧ犲ｴ犲≒ｺｴ犲樅ｺｵ狃?犲扉ｺ?, 犲ｪ犲ｲ犲･犲ｲ犲吭ｺｸ犲≒ｺｻ犲｡狃?犲ｪ犲･犲ｵ","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lo"]},{"name":"Wikipedija (sl)","description":"Wikipedija, prosta enciklopedija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sl"]},{"name":"ﾐ漬ｸﾐｺﾐｸﾐｿﾐｵﾐｴﾐｸﾑ? (ru)","description":"ﾐ漬ｸﾐｺﾐｸﾐｿﾐｵﾐｴﾐｸﾑ?, ﾑ?ﾐｲﾐｾﾐｱﾐｾﾐｴﾐｽﾐｰﾑ? ﾑ災ｽﾑ?ﾐｸﾐｺﾐｻﾐｾﾐｿﾐｵﾐｴﾐｸﾑ?","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ru"]},{"name":"ﾐ柘孟ｺﾑ孟ｿﾑ災ｴﾑ錦? (be-tarask)","description":"ﾐ柘孟ｺﾑ孟ｿﾑ災ｴﾑ錦?, ﾐｲﾐｾﾐｻﾑ糊ｽﾐｰﾑ? ﾑ災ｽﾑ?ﾑ巾ｺﾐｻﾑ紹ｿﾑ災ｴﾑ錦?","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["be-tarask"]},{"name":"Vikipﾄ電ija","description":"Vikipﾄ電ija, brﾄｫvﾄ? enciklopﾄ電ija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lv"]},{"name":"Biquipedia (an)","description":"A enciclopedia Libre","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["an"]}],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":null,"maxVersion":null}],"targetPlatforms":[],"seen":true,"dependencies":[],"incognito":"spanning","userPermissions":{"permissions":[],"origins":[]},"optionalPermissions":{"permissions":[],"origins":[]},"icons":{"16":"favicon.ico"},"iconURL":null,"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"installTelemetryInfo":null,"recommendationState":null,"rootURI":"resource://search-extensions/wikipedia/","location":"app-builtin"}
+1587775595116	addons.xpi	DEBUG	Loading bootstrap scope from resource://search-extensions/wikipedia/
+1587775595117	addons.xpi	DEBUG	Calling bootstrap method install on wikipedia@search.mozilla.org version 1.0
+1587775595117	addons.xpi	DEBUG	Calling bootstrap method startup on wikipedia@search.mozilla.org version 1.0
+1587775597718	addons.xpi	DEBUG	Calling bootstrap method shutdown on wikipedia@search.mozilla.org version 1.0
+1587775597720	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 9.0.0
+1587775597755	addons.xpi	DEBUG	Calling bootstrap method shutdown on twitter@search.mozilla.org version 1.0
+1587775597757	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 39.0.0
+1587775597766	addons.xpi	DEBUG	Calling bootstrap method shutdown on google@search.mozilla.org version 1.0
+1587775597768	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1587775597770	addons.xpi	DEBUG	Calling bootstrap method shutdown on ebay@search.mozilla.org version 1.0
+1587775597773	addons.xpi	DEBUG	Calling bootstrap method shutdown on doh-rollout@mozilla.org version 1.3.0
+1587775597778	addons.xpi	DEBUG	Calling bootstrap method shutdown on default-theme@mozilla.org version 1.0
+1587775597782	addons.xpi	DEBUG	Calling bootstrap method shutdown on ddg@search.mozilla.org version 1.0
+1587775597783	addons.xpi	DEBUG	Calling bootstrap method shutdown on bing@search.mozilla.org version 1.1
+1587775597784	addons.xpi	DEBUG	Calling bootstrap method shutdown on amazondotcom@search.mozilla.org version 1.1
+[Parent 10948, Gecko_IOThread] WARNING: file Z:/task_1585933993/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+1587775599009	addons.manager	DEBUG	before shutdown
+1587775599038	addons.manager	DEBUG	shutdown
+1587775599042	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1587775599042	addons.xpi	DEBUG	shutdown
+1587775599042	addons.xpi-utils	DEBUG	shutdown
+1587775599043	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1587775599043	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1587775599045	addons.manager	DEBUG	Async provider shutdown done
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'DESKTOP-RCB252I', ip: '192.168.43.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:275)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:116)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:220)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:215)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:124)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:147)
+	... 40 common frames omitted
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+anslators":null,"contributors":null,"locales":["sv-SE"]},{"name":"犲ｧ犲ｴ犲≒ｺｴ犲樅ｺｵ狃?犲扉ｺ? (lo)","description":"犲ｧ犲ｴ犲≒ｺｴ犲樅ｺｵ狃?犲扉ｺ?, 犲ｪ犲ｲ犲･犲ｲ犲吭ｺｸ犲≒ｺｻ犲｡狃?犲ｪ犲･犲ｵ","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lo"]},{"name":"Wikipedija (sl)","description":"Wikipedija, prosta enciklopedija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sl"]},{"name":"ﾐ漬ｸﾐｺﾐｸﾐｿﾐｵﾐｴﾐｸﾑ? (ru)","description":"ﾐ漬ｸﾐｺﾐｸﾐｿﾐｵﾐｴﾐｸﾑ?, ﾑ?ﾐｲﾐｾﾐｱﾐｾﾐｴﾐｽﾐｰﾑ? ﾑ災ｽﾑ?ﾐｸﾐｺﾐｻﾐｾﾐｿﾐｵﾐｴﾐｸﾑ?","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ru"]},{"name":"ﾐ柘孟ｺﾑ孟ｿﾑ災ｴﾑ錦? (be-tarask)","description":"ﾐ柘孟ｺﾑ孟ｿﾑ災ｴﾑ錦?, ﾐｲﾐｾﾐｻﾑ糊ｽﾐｰﾑ? ﾑ災ｽﾑ?ﾑ巾ｺﾐｻﾑ紹ｿﾑ災ｴﾑ錦?","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["be-tarask"]},{"name":"Vikipﾄ電ija","description":"Vikipﾄ電ija, brﾄｫvﾄ? enciklopﾄ電ija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lv"]},{"name":"Biquipedia (an)","description":"A enciclopedia Libre","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["an"]}],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":null,"maxVersion":null}],"targetPlatforms":[],"seen":true,"dependencies":[],"incognito":"spanning","userPermissions":{"permissions":[],"origins":[]},"optionalPermissions":{"permissions":[],"origins":[]},"icons":{"16":"favicon.ico"},"iconURL":null,"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"installTelemetryInfo":null,"recommendationState":null,"rootURI":"resource://search-extensions/wikipedia/","location":"app-builtin"}
+1587775595116	addons.xpi	DEBUG	Loading bootstrap scope from resource://search-extensions/wikipedia/
+1587775595117	addons.xpi	DEBUG	Calling bootstrap method install on wikipedia@search.mozilla.org version 1.0
+1587775595117	addons.xpi	DEBUG	Calling bootstrap method startup on wikipedia@search.mozilla.org version 1.0
+1587775597718	addons.xpi	DEBUG	Calling bootstrap method shutdown on wikipedia@search.mozilla.org version 1.0
+1587775597720	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 9.0.0
+1587775597755	addons.xpi	DEBUG	Calling bootstrap method shutdown on twitter@search.mozilla.org version 1.0
+1587775597757	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 39.0.0
+1587775597766	addons.xpi	DEBUG	Calling bootstrap method shutdown on google@search.mozilla.org version 1.0
+1587775597768	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1587775597770	addons.xpi	DEBUG	Calling bootstrap method shutdown on ebay@search.mozilla.org version 1.0
+1587775597773	addons.xpi	DEBUG	Calling bootstrap method shutdown on doh-rollout@mozilla.org version 1.3.0
+1587775597778	addons.xpi	DEBUG	Calling bootstrap method shutdown on default-theme@mozilla.org version 1.0
+1587775597782	addons.xpi	DEBUG	Calling bootstrap method shutdown on ddg@search.mozilla.org version 1.0
+1587775597783	addons.xpi	DEBUG	Calling bootstrap method shutdown on bing@search.mozilla.org version 1.1
+1587775597784	addons.xpi	DEBUG	Calling bootstrap method shutdown on amazondotcom@search.mozilla.org version 1.1
+[Parent 10948, Gecko_IOThread] WARNING: file Z:/task_1585933993/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+1587775599009	addons.manager	DEBUG	before shutdown
+1587775599038	addons.manager	DEBUG	shutdown
+1587775599042	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1587775599042	addons.xpi	DEBUG	shutdown
+1587775599042	addons.xpi-utils	DEBUG	shutdown
+1587775599043	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1587775599043	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1587775599045	addons.manager	DEBUG	Async provider shutdown done
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:120)
+	... 51 common frames omitted
+]]></system-out>
+    <system-err><![CDATA[org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+anslators":null,"contributors":null,"locales":["sv-SE"]},{"name":"犲ｧ犲ｴ犲≒ｺｴ犲樅ｺｵ狃?犲扉ｺ? (lo)","description":"犲ｧ犲ｴ犲≒ｺｴ犲樅ｺｵ狃?犲扉ｺ?, 犲ｪ犲ｲ犲･犲ｲ犲吭ｺｸ犲≒ｺｻ犲｡狃?犲ｪ犲･犲ｵ","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lo"]},{"name":"Wikipedija (sl)","description":"Wikipedija, prosta enciklopedija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["sl"]},{"name":"ﾐ漬ｸﾐｺﾐｸﾐｿﾐｵﾐｴﾐｸﾑ? (ru)","description":"ﾐ漬ｸﾐｺﾐｸﾐｿﾐｵﾐｴﾐｸﾑ?, ﾑ?ﾐｲﾐｾﾐｱﾐｾﾐｴﾐｽﾐｰﾑ? ﾑ災ｽﾑ?ﾐｸﾐｺﾐｻﾐｾﾐｿﾐｵﾐｴﾐｸﾑ?","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["ru"]},{"name":"ﾐ柘孟ｺﾑ孟ｿﾑ災ｴﾑ錦? (be-tarask)","description":"ﾐ柘孟ｺﾑ孟ｿﾑ災ｴﾑ錦?, ﾐｲﾐｾﾐｻﾑ糊ｽﾐｰﾑ? ﾑ災ｽﾑ?ﾑ巾ｺﾐｻﾑ紹ｿﾑ災ｴﾑ錦?","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["be-tarask"]},{"name":"Vikipﾄ電ija","description":"Vikipﾄ電ija, brﾄｫvﾄ? enciklopﾄ電ija","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["lv"]},{"name":"Biquipedia (an)","description":"A enciclopedia Libre","creator":null,"developers":null,"translators":null,"contributors":null,"locales":["an"]}],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":null,"maxVersion":null}],"targetPlatforms":[],"seen":true,"dependencies":[],"incognito":"spanning","userPermissions":{"permissions":[],"origins":[]},"optionalPermissions":{"permissions":[],"origins":[]},"icons":{"16":"favicon.ico"},"iconURL":null,"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"installTelemetryInfo":null,"recommendationState":null,"rootURI":"resource://search-extensions/wikipedia/","location":"app-builtin"}
+1587775595116	addons.xpi	DEBUG	Loading bootstrap scope from resource://search-extensions/wikipedia/
+1587775595117	addons.xpi	DEBUG	Calling bootstrap method install on wikipedia@search.mozilla.org version 1.0
+1587775595117	addons.xpi	DEBUG	Calling bootstrap method startup on wikipedia@search.mozilla.org version 1.0
+1587775597718	addons.xpi	DEBUG	Calling bootstrap method shutdown on wikipedia@search.mozilla.org version 1.0
+1587775597720	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 9.0.0
+1587775597755	addons.xpi	DEBUG	Calling bootstrap method shutdown on twitter@search.mozilla.org version 1.0
+1587775597757	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 39.0.0
+1587775597766	addons.xpi	DEBUG	Calling bootstrap method shutdown on google@search.mozilla.org version 1.0
+1587775597768	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1587775597770	addons.xpi	DEBUG	Calling bootstrap method shutdown on ebay@search.mozilla.org version 1.0
+1587775597773	addons.xpi	DEBUG	Calling bootstrap method shutdown on doh-rollout@mozilla.org version 1.3.0
+1587775597778	addons.xpi	DEBUG	Calling bootstrap method shutdown on default-theme@mozilla.org version 1.0
+1587775597782	addons.xpi	DEBUG	Calling bootstrap method shutdown on ddg@search.mozilla.org version 1.0
+1587775597783	addons.xpi	DEBUG	Calling bootstrap method shutdown on bing@search.mozilla.org version 1.1
+1587775597784	addons.xpi	DEBUG	Calling bootstrap method shutdown on amazondotcom@search.mozilla.org version 1.1
+[Parent 10948, Gecko_IOThread] WARNING: file Z:/task_1585933993/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+1587775599009	addons.manager	DEBUG	before shutdown
+1587775599038	addons.manager	DEBUG	shutdown
+1587775599042	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1587775599042	addons.xpi	DEBUG	shutdown
+1587775599042	addons.xpi-utils	DEBUG	shutdown
+1587775599043	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1587775599043	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1587775599045	addons.manager	DEBUG	Async provider shutdown done
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:120)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:275)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:116)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:220)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:215)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:124)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:147)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:89)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1098)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1050)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:545)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:385)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:249)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:344)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:269)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:184)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Apr 25, 2020 7:17:11 AM org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+INFO: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@c5ee75e
+]]></system-err>
+  </testcase>
+</testsuite>
